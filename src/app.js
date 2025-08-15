@@ -6,7 +6,7 @@ const app = express();
 app.use(urlencoded({ extended: false }));
 app.use(json());
 
-app.get('/health', (_, res) => res.json({ message: 'Server is up and running!' }));
+app.get('/health', (_, res) => res.json({ message: 'Serverrrr is up and running!' }));
 app.use('/todos', todosRoutes);
 
 const PORT = process.env.PORT || 3000;
